@@ -102,9 +102,9 @@ def make_sky_map(lat, lon, year, month, day, hour):
     fig.update_layout(
         polar=dict(
             bgcolor="black",
-            radialaxis=dict(visible=False, range=[0, 90]),
+            radialaxis=dict(visible=False, range=[0, 90], showgrid=False),
             angularaxis=dict(direction="clockwise", rotation=180,
-                             showline=False, showticklabels=False),
+                             showline=False, showticklabels=False, showgrid=False),
         ),
         showlegend=False,
         paper_bgcolor="black",
