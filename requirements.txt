@@ -1,0 +1,6 @@
+dash 
+plotly
+skyfield 
+matplotlib 
+numpy 
+pandas
